@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/start_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开启辅助" />
+
+    <Button
+        android:id="@+id/remove_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="关闭辅助" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|right"
+        android:textColor="#05B7FF"
+        android:text="coded by 北京蓝军-majesty17" />
+
+</LinearLayout>
